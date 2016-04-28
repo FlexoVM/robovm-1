@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/FlexoVM/robovm-community.png?label=ready&title=Ready)](https://waffle.io/FlexoVM/robovm-community)
 # RoboVM
 RoboVM is an ahead-of-time compiler for Java bytecode, targeting Linux, Mac OS X and iOS.
 
