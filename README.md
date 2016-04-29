@@ -1,4 +1,7 @@
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/FlexoVM?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 [![Stories in Ready](https://badge.waffle.io/FlexoVM/robovm-community.png?label=ready&title=Ready)](https://waffle.io/FlexoVM/robovm-community)
+
 # RoboVM
 RoboVM is an ahead-of-time compiler for Java bytecode, targeting Linux, Mac OS X and iOS.
 
