@@ -1,4 +1,4 @@
-#/bin/sh
+#!/usr/bin/env bash
 set -e
 compiler/vm/build.sh --build=release
 mvn clean install
