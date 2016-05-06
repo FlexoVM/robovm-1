@@ -3,6 +3,9 @@
 [![Stories in Ready](https://badge.waffle.io/FlexoVM/robovm-community.png?label=ready&title=Ready)](https://waffle.io/FlexoVM/robovm-community)
 
 # RoboVM
+
+[Website](http://robovm.mobidevelop.com)
+
 RoboVM is an ahead-of-time compiler for Java bytecode, targeting Linux, Mac OS X and iOS.
 
 This is a fork of the [last open-source release of RoboVM](https://github.com/robovm/robovm). The originally seperate repositories have been merged into a single repository.
@@ -37,7 +40,7 @@ will
  3. Put the Eclipse plugin in `plugins/eclipse/update-site/target/site`
 
 ## Communicating
-You can find us at our IRC channel #nullvm at irc.freenode.net.
+[![Join the chat at https://gitter.im/MobiDevelop/robovm](https://badges.gitter.im/MobiDevelop/robovm.svg)](https://gitter.im/MobiDevelop/robovm?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## License
 See the LICENSE files in the various sub directories. Generally, RoboVM is GPL2,
@@ -125,7 +128,7 @@ Bundle-ClassPath: .,
  lib/commons-compress.jar,
  external:/Users/nex/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar,
  external:/Users/nex/.m2/repository/org/apache/commons/commons-exec/1.0.1/commons-exec-1.0.1.jar,
- external:/Users/nex/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar,
+ external:/Users/nex/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar,
  external:/Users/nex/.m2/repository/com/googlecode/plist/dd-plist/1.16/dd-plist-1.16.jar,
  external:/Users/nex/.m2/repository/org/simpleframework/simple-xml/2.7/simple-xml-2.7.jar,
  external:/Users/nex/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.49/bcpkix-jdk15on-1.49.jar,
