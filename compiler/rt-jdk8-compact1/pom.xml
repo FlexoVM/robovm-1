@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.mobidevelop.robovm</groupId>
+        <artifactId>robovm-compiler-parent</artifactId>
+        <version>2.1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>robovm-rt-jdk8-compact1</artifactId>
+    <name>RoboVM JDK8 Compact 1 Runtime Library</name>
+    <packaging>jar</packaging>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!-- This is a special in project repository. It allows us to depend on any 3rd party jar
+     through maven without relying on an external repository or location.-->
+    <repositories>
+        <repository>
+            <id>repo</id>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>ignore</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <url>file://${project.basedir}/repo</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <rt-jdk8-compact1.version>1.8.92</rt-jdk8-compact1.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.java.openjdk</groupId>
+            <artifactId>rt-compact1</artifactId>
+            <version>${rt-jdk8-compact1.version}</version>
+        </dependency>
+    </dependencies>
+</project>
